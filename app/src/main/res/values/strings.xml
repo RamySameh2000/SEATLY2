@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">Seatly</string>
+    <string name="loading">Loading…</string>
+    <string name="no_internet_connection">No internet connection!</string>
+    <string name="lbl_email">Email</string>
+    <string name="msg_choose_the_maps">Choose the maps that will be included in your event</string>
+    <string name="lbl_back">Back</string>
+    <string name="lbl_next">Next</string>
+    <string name="msg_don_t_have_an_a">Don\u2019t have an account? Sign Up</string>
+    <string name="lbl_event_name">Event Name</string>
+    <string name="msg_choose_the_user">Choose the users that\u2019ll be assigned to each map
+-Note that each user can only be assigned to one map only</string>
+    <string name="lbl_john_doe">John Doe</string>
+    <string name="msg_don_t_have_an_a2">Don\u2019t have an account? </string>
+    <string name="msg_already_have_an">Already have an account? Login</string>
+    <string name="lbl_step_1_3">Step 1/3</string>
+    <string name="lbl_step_2_3">Step 2/3</string>
+    <string name="lbl_step_3_3">Step 3/3</string>
+    <string name="lbl_login">Login</string>
+    <string name="lbl_ka3a_al3aza">Ka3a al3aza</string>
+    <string name="msg_your_newest_so">Your Newest  Solution In Event Managment</string>
+    <string name="lbl_new_event"> + New Event</string>
+    <string name="lbl_christmas_2022">Christmas 2022</string>
+    <string name="lbl_215_seats">215 Seats</string>
+    <string name="msg_already_have_an2">Already have an account? </string>
+    <string name="msg_choose_the_user2">Choose the users that\u2019ll be assigned to each map
+</string>
+    <string name="lbl_choose_users">Choose Users</string>
+    <string name="msg_enter_your_even">Enter your event name, start time, and end time</string>
+    <string name="lbl_end_time">End Time</string>
+    <string name="msg_alkenisa_also3">Alkenisa Also3\u2019yra</string>
+    <string name="lbl_events">Events</string>
+    <string name="lbl_login2">Login </string>
+    <string name="msg_alkenisa_alkber">Alkenisa Alkbera</string>
+    <string name="lbl_sign_up">Sign up</string>
+    <string name="lbl_seatly">Seatly</string>
+    <string name="lbl_password">Password</string>
+    <string name="lbl_sign_up2">Sign Up</string>
+    <string name="lbl_confirm_passwrd">Confirm Passwrd</string>
+    <string name="msg_enter_with_goog">Enter With Google</string>
+    <string name="lbl_name">Name</string>
+    <string name="lbl_cancel">Cancel</string>
+    <string name="lbl_start_time">Start Time</string>
+    <string name="msg_session_admin">Session Admin: John Doe</string>
+    <string name="lbl_almsr7">Almsr7</string>
+    <string name="lbl">-</string>
+    <string name="lbl_event_creation">Event Creation</string>
+    <string name="lbl_done">Done</string>
+    <string name="msg_note_that_each">Note that each user can only be assigned to one map only</string>
+</resources>

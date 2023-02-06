@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "687103240619",
+    "project_id": "seatly-5484e",
+    "storage_bucket": "seatly-5484e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:687103240619:android:0702b9d9d5f454b23a0aee",
+        "android_client_info": {
+          "package_name": "com.example.seatly"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "687103240619-vehrap0vkmi0leqgafjohpsjfbimn9eg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwd9NMxaLA653u-ZwHvbBmYl4vDmayI0s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "687103240619-vehrap0vkmi0leqgafjohpsjfbimn9eg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

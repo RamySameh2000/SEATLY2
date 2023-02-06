@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EventMain">
+
+    <TextView
+        android:id="@+id/lbl_events"
+        style="@style/txtFasthandregular30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/lbl_events"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/new_event_btn"
+        style="@style/btnSolidRounded"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+New Event"
+        android:textAppearance="@style/txtRobotoromanregular15"
+        android:theme="@style/btnSolidRounded"
+        app:layout_constraintBottom_toBottomOf="@id/lbl_events"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/lbl_events" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/lbl_events">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/gray_800">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/constraint_card"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/header"
+                    style="@style/txtRobotoromanregular15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toTopOf="@id/constraint_card"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/no_of_seats"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    app:layout_constraintStart_toStartOf="@id/header"
+                    app:layout_constraintTop_toBottomOf="@id/header"
+                    tools:ignore="MissingConstraints" />
+
+
+                <TextView
+                    android:id="@+id/adimn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Session Admin:"
+                    android:textSize="20sp"
+                    app:layout_constraintBottom_toBottomOf="@id/constraint_card"
+                    app:layout_constraintStart_toStartOf="@id/constraint_card" />
+
+
+                <TextView
+                    android:id="@+id/admin_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintBottom_toBottomOf="@id/adimn"
+                    app:layout_constraintStart_toEndOf="@id/adimn"
+                    app:layout_constraintTop_toTopOf="@id/adimn" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/drawable_img_arrowright_black_901"
+                    app:layout_constraintEnd_toEndOf="@id/constraint_card"
+                    app:layout_constraintTop_toTopOf="@id/constraint_card"
+                    app:layout_constraintBottom_toBottomOf="@id/constraint_card"/>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
