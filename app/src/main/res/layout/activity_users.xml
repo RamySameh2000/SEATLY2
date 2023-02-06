@@ -6,4 +6,106 @@
     android:layout_height="match_parent"
     tools:context=".UsersActivity">
 
+    <TextView
+        android:id="@+id/lbl_users"
+        style="@style/txtFasthandregular30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        android:text="@string/lbl_choose_users"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="@color/gray_800"
+        android:layout_margin="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/lbl_users"
+        tools:ignore="MissingConstraints">
+
+        <androidx.appcompat.widget.AppCompatRadioButton
+            style="@style/txtFondamentoitalic15"
+            android:layout_width="match_parent"
+
+            android:layout_height="40dp"
+            android:text="@string/lbl_john_doe"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <androidx.appcompat.widget.AppCompatRadioButton
+            style="@style/txtFondamentoitalic15"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/lbl_john_doe"
+            android:textColor="@color/white"
+
+            android:textSize="20dp" />
+        <androidx.appcompat.widget.AppCompatRadioButton
+            style="@style/txtFondamentoitalic15"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/lbl_john_doe"
+            android:textColor="@color/white"
+
+            android:textSize="20dp" />
+        <androidx.appcompat.widget.AppCompatRadioButton
+            style="@style/txtFondamentoitalic15"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/lbl_john_doe"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+    </RadioGroup>
+
+    <ImageButton
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/baseline_done_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_margin="20dp"
+        android:id="@+id/done_btn2"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lbl_done"
+        style="@style/txtFondamentoregular15"
+        app:layout_constraintEnd_toStartOf="@id/done_btn2"
+        app:layout_constraintTop_toTopOf="@id/done_btn2"
+        app:layout_constraintBottom_toBottomOf="@id/done_btn2"
+        android:layout_marginEnd="20dp"
+        android:textSize="30sp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_margin="20dp"
+        android:src="@drawable/img_clock_41x41"
+        android:id="@+id/back_btn3"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lbl_back"
+        style="@style/txtFondamentoregular15"
+        app:layout_constraintStart_toEndOf="@id/back_btn3"
+        app:layout_constraintTop_toTopOf="@id/back_btn3"
+        app:layout_constraintBottom_toBottomOf="@id/back_btn3"
+        android:layout_marginEnd="20dp"
+        android:textSize="30sp"
+        tools:ignore="MissingConstraints" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
